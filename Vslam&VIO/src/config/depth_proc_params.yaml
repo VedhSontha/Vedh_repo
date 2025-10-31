@@ -1,0 +1,4 @@
+depth_converter_node:
+  ros__parameters:
+    input_topic: "/camera/depth/image_raw/compressed"
+    output_topic: "/camera/depth/image"

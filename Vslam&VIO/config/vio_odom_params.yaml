@@ -1,0 +1,9 @@
+# Parameters for VIO odometry node
+rgbd_odometry:
+  ros__parameters:
+    use_sim_time: true
+    frame_id: "base_footprint"
+    Odom/Strategy: "6"         # Set as string
+    Vis/EstimationType: 1     # Set as integer
+    approx_sync: true
+    wait_imu_to_init: true
