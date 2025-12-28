@@ -1,0 +1,9 @@
+Invoice #DEMO-002
+Date: 2025-02-01
+From: Gooogle Inc
+To: My Company
+
+Items:
+1. Ad Services $1200.00
+
+Total: $1200.00

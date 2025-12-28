@@ -1,0 +1,6 @@
+Invoice #1005 from Gooogle lnc
+Date: 2025-12-27
+Items:
+- Cloud Services: $500.00
+- Storage: $200.00
+Total: $700.00

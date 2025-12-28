@@ -1,0 +1,9 @@
+Invoice #DEMO-001
+Date: 2025-01-01
+From: Gooogle Inc
+To: My Company
+
+Items:
+1. Cloud Services $500.00
+
+Total: $500.00

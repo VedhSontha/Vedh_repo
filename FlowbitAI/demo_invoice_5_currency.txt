@@ -1,0 +1,4 @@
+Invoice #DEMO-005
+Date: 2025-04-01
+From: EuroParts GmbH
+Total: 500,00 €

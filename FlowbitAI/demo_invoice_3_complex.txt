@@ -1,0 +1,11 @@
+Invoice #DEMO-003
+Date: 2025-03-01
+From: Tech Corp
+PO-Number: PO-A-051
+Leistungsdatum: 2025-03-01
+
+Items:
+1. Hard Drive Included MwSt. inkl. $5000.00
+2. Skonto 3% if paid in 10 days
+
+Total: $5000.00
