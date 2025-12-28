@@ -4,9 +4,7 @@ import time
 def create_demo_files():
     print("creating demo files...")
     
-    # Invoice 1: The "Teacher"
-    # Contains a typo: "Gooogle Inc"
-    # used to teach the system.
+
     inv1 = """Invoice #DEMO-001
 Date: 2025-01-01
 From: Gooogle Inc
@@ -20,9 +18,7 @@ Total: $500.00
     with open("demo_invoice_1_teach.txt", "w", encoding="utf-8") as f:
         f.write(inv1)
     
-    # Invoice 2: The "Test"
-    # Contains the SAME typo: "Gooogle Inc"
-    # used to prove the system learned.
+
     inv2 = """Invoice #DEMO-002
 Date: 2025-02-01
 From: Gooogle Inc
@@ -133,3 +129,4 @@ if __name__ == "__main__":
     print("\n🚀 Launching App in 3 seconds...")
     time.sleep(3)
     os.system("streamlit run app.py")
+
