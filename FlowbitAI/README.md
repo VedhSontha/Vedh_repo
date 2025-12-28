@@ -5,6 +5,9 @@ This system automates invoice processing by learning from user corrections. It u
 ## Features
 - **Invoice Ingestion**: Upload text-based invoice files.
 - **Auto-Correction**: Applies learned patterns (e.g., typos like `Vndr_lnc` -> `Vendor Inc`) automatically.
+- **Duplicate Detection**: Automatically flags invoices with the same Number and Vendor.
+- **PO Matching**: Links invoices to Purchase Orders (e.g., `PO-A-051`).
+- **Advanced Extraction**: Extracts Service Dates, Currency, and detects VAT/Skonto terms.
 - **Fuzzy Matching**: Intelligent matching for unseen typos.
 - **Learning Loop**: User corrections in the Review interface are saved to memory.
 
@@ -14,11 +17,15 @@ This is not just a regex parser. It implements an **Adaptive Memory System**:
 2.  **Memory Recall**: The system checks its `flowbit.db` for similar past errors using **Fuzzy Logic** (Sequence Matching > 80% similarity).
 3.  **Self-Correction**: If it finds a match (e.g., "Vndr_Inc" is similar to a known error meant to be "Vendor Inc"), it **automatically swaps** the value before you even see it.
 
-## Demo
-We have included a script to generate sample data for a demo video:
-1. Run `python demo_runner.py`.
-2. This will generate `demo_invoice_1_teach.txt` and `demo_invoice_2_test.txt`.
-3. Follow the on-screen script to record your video.
+## Demo (Automated)
+We have included a specific script to run a full demonstration:
+1.  **Run**: `python demo_runner.py`
+2.  **What it does**:
+    - Resets the database (for a clean start).
+    - Generates 5 sample files: `demo_invoice_1_teach.txt` through `demo_invoice_5_currency.txt`.
+    - Prints a "Video Guide" for you to follow.
+    - Launches the App automatically.
+3.  **Follow the Guide**: Just follow the printed steps in the terminal to record your video.
 
 ## Setup
 
